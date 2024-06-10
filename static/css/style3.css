@@ -1,0 +1,45 @@
+.main-container{
+    background-color: gray;
+    position: absolute;
+    top: 85px;
+    right: 50px;
+    height: 480px;
+    width: 680px;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+
+
+.contaier-buttons{
+    background-color: gainsboro;
+    position: relative;
+    left: 20px;
+    height: 400px;
+    width: 450px;
+}
+
+.WebCam-button{
+    margin-top: 20px;
+}
+
+#loading-bar {
+    display: none;
+    width: 100%;
+    height: 20px;
+    background-color: #f3f3f3;
+    position: relative;
+    margin-top: 10px;
+}
+
+#loading-bar .bar {
+    width: 0;
+    height: 100%;
+    background-color: #4caf50;
+}
+
+#loading-bar .time {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    color: #000;
+}
